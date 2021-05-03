@@ -1,0 +1,119 @@
+﻿Build1=Default,b4a.example
+File1=26.png
+File10=apptheme_progressbar_indeterminate_holo8.png
+File11=baseline_navigate_next_white_36.png
+File12=div.png
+File13=do_laundry.png
+File14=drying.png
+File15=google_login.png
+File16=hiserv_user.png
+File17=ic_arrow_forward_white_36dp.png
+File18=ic_local_phone_black_36dp.png
+File19=ic_lock_outline_white_36dp.png
+File2=28.png
+File20=IRAN_SANS_BOLD.TTF
+File21=Iranian_Sans.ttf
+File22=iransansmobile_1.ttf
+File23=IRANSANSMOBILE_BOLD.TTF
+File24=IRANSANSMOBILE_LIGHT.TTF
+File25=IRANSANSMOBILE_LIGHT_0.TTF
+File26=orders_list_inside_num1.bal
+File27=pager1.jpg
+File28=pager2.jpg
+File29=pracka.jpg
+File3=apptheme_progressbar_indeterminate_holo1.png
+File30=QUESTION_MARK.png
+File31=services.png
+File32=splash_Logo.png
+File33=splash_logo2.png
+File4=apptheme_progressbar_indeterminate_holo2.png
+File5=apptheme_progressbar_indeterminate_holo3.png
+File6=apptheme_progressbar_indeterminate_holo4.png
+File7=apptheme_progressbar_indeterminate_holo5.png
+File8=apptheme_progressbar_indeterminate_holo6.png
+File9=apptheme_progressbar_indeterminate_holo7.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+IconFile=
+Library1=core
+Library2=xmllayoutbuilder
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
+Module1=Starter
+NumberOfFiles=33
+NumberOfLibraries=2
+NumberOfModules=1
+Version=8.3
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+
+	Private EditText1 As EditText
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	Activity.LoadLayout("orders_list_inside_num1")
+Dim x As XmlLayoutBuilder
+EditText1.Background= x.GetDrawable("search")
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub

@@ -1,0 +1,17 @@
+package ir.hiserv.designerscripts;
+import anywheresoftware.b4a.objects.TextViewWrapper;
+import anywheresoftware.b4a.objects.ImageViewWrapper;
+import anywheresoftware.b4a.BA;
+
+
+public class LS_orders_list_inside_num1{
+
+public static void LS_general(java.util.LinkedHashMap<String, anywheresoftware.b4a.keywords.LayoutBuilder.ViewWrapperAndAnchor> views, int width, int height, float scale) {
+anywheresoftware.b4a.keywords.LayoutBuilder.setScaleRate(0.3);
+anywheresoftware.b4a.keywords.LayoutBuilder.scaleAll(views);
+views.get("acedittext1").vw.setHeight((int)(Math.max((7d / 100 * height),(45d * scale))));
+views.get("imageview1").vw.setHeight((int)((50d / 100 * width)));
+views.get("acedittext1").vw.setTop((int)((views.get("imageview1").vw.getTop() + views.get("imageview1").vw.getHeight())+(5d * scale)));
+
+}
+}

@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">Wordpress App</string>
+
+    <string name="app_version">Version 1.0</string>
+    <string name="developer_email">your_email@email.com</string>
+    <string name="copyright">Copyright © 2017 Your Web Name. \nAll Right Reserved.</string>
+    <string name="dialog_about_title">About</string>
+    <string name="about_text">
+        <![CDATA["Wordpress App."
+            <br/>
+            <br/>Data Source : <a href="www.tasty.id">WordpressApp</a>
+            <br/>Plugin Support : <a href="https://wordpress.org/plugins/json-api">JSON API</a>
+        ]]>
+    </string>
+
+    <string name="activity_title_webview">Web View</string>
+    <string name="activity_title_settings">Settings</string>
+    <string name="activity_title_send_comment">Send Comment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Toolbar menu string -->
+    <string name="title_menu_settings">Settings</string>
+    <string name="title_menu_rate">Rate</string>
+    <string name="title_menu_about">About</string>
+    <string name="title_menu_refresh">Refresh</string>
+    <string name="title_menu_later">Read Later</string>
+    <string name="title_menu_share">Share Post</string>
+    <string name="title_menu_browser">Open In Browser</string>
+
+    <string name="webview_loading">Load Page... </string>
+
+    <!--navigation title-->
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_category">Category</string>
+    <string name="title_nav_later">Later</string>
+    <string name="title_nav_setting">Setting</string>
+    <string name="title_nav_rate">Rate</string>
+    <string name="title_nav_about">About</string>
+    <string name="sub_title_nav_others">Others</string>
+
+    <!-- Activity Setting : xml/setting_preference.xml -->
+    <string name="pref_group_profile">PROFILE</string>
+    <string name="pref_group_notif">NOTIFICATIONS</string>
+    <string name="pref_group_others">OTHERS</string>
+    <string name="pref_title_name">Your Name</string>
+    <string name="pref_title_email">Your Email</string>
+    <string name="pref_title_notif">Push Notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_copyright">Copyright</string>
+    <string name="pref_title_dev_email">Developer Email</string>
+    <string name="pref_title_build">Build Version</string>
+    <string name="pref_title_term">Term &amp; Policies</string>
+    <string name="default_your_name"></string>
+    <string name="default_your_email"></string>
+
+    <!-- Other Strings -->
+    <string name="no_internet_text">No Internet Connection</string>
+    <string name="no_post">No Post</string>
+    <string name="no_category">No Category</string>
+    <string name="no_post_found">Not Found</string>
+    <string name="failed_text">Failed When Load Data</string>
+    <string name="failed_text_comment">Failed When Send Comment. Please Try Again</string>
+    <string name="no_inet_text_comment">No Internet Connection. Please Try Again</string>
+    <string name="after_send_comment">Your comment status is</string>
+    <string name="retry_txt">RETRY</string>
+    <string name="show_tv_comments">Show Comments</string>
+    <string name="send_tv_comments">Send Comment</string>
+    <string name="count_bt_comments"> comments</string>
+    <string name="msg_search_input">Please Fill Search Input</string>
+    <string name="task_running_msg">Ops, Task Still Running</string>
+    <string name="post_detail_displayed_msg">Post Details Displayed</string>
+    <string name="post_have_no_comment">This post have no comment</string>
+    <string name="cannot_add_to_read_later">Cannot add to Read Later</string>
+    <string name="remove_from_msg">remove from</string>
+    <string name="added_to_msg">added to</string>
+    <string name="comments_bottom_message">
+        Your comment will be accepted if its not duplicate, not frequently submit, still on topic, and not abusive.
+    </string>
+
+    <!--exit notification-->
+    <string name="press_again_exit_app">Press again to exit</string>
+
+
+    <string name="direct_to_browser_dialog_title">Open Browser Confirmation</string>
+    <string name="direct_to_browser_dialog_text">
+        You must be registered and logged in to comment.
+        \nDo you want open this post in browser?
+    </string>
+
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_comment">Invalid Comment</string>
+    <string name="bt_submit">SUBMIT</string>
+    <string name="hint_input_name">Name</string>
+    <string name="hint_input_email">Email</string>
+    <string name="hint_input_comment">Comment</string>
+
+    <!--ADS UNIT ID  -->
+    <!--interstitial ad unit id. -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3591102297079521/4245587696</string>
+    <!--banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3591102297079521/2768854493</string>
+
+    <string name="content_term">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor risus, aliquet a erat quis, viverra molestie orci. Suspendisse vehicula porta libero. Nam tincidunt nulla ipsum, vel iaculis risus scelerisque sed. Phasellus venenatis, enim vel placerat blandit, leo eros bibendum erat, at auctor mauris diam ac risus. Aenean sit amet congue neque, sit amet condimentum elit. Fusce lacinia massa vel nisl scelerisque, in scelerisque dolor elementum. Vivamus leo enim, congue dictum congue vitae, porttitor id purus. Sed eu ultricies erat. Morbi hendrerit, mi ac volutpat commodo, magna turpis pretium nibh, at fringilla eros lorem quis tellus. Praesent porttitor purus nibh, ac vestibulum massa fringilla vel. Pellentesque dapibus nulla quis luctus dictum. In scelerisque ut ex sed facilisis. Nunc eu finibus nulla, ut hendrerit sem. Suspendisse accumsan risus vel diam fringilla iaculis.
+        \n\nQuisque facilisis finibus aliquam. Sed mattis, dui fringilla ornare finibus, orci odio blandit risus, ut maximus dui odio non leo. Donec laoreet lacus nisi, a mollis velit suscipit ac. Quisque faucibus ut nisl in congue. Nam sagittis consectetur tempus. Suspendisse eget posuere dui. Donec ultricies velit ex, vel cursus odio sollicitudin in. Nullam faucibus auctor ligula, eu rhoncus dui facilisis a. Curabitur vel feugiat est. Quisque congue at enim eleifend ultrices. Proin dapibus risus lorem, nec condimentum nunc consequat vitae. Quisque sapien lorem, vestibulum vitae justo eget, fringilla eleifend nisi.
+        \n\nMauris ultricies augue sit amet est sollicitudin laoreet. Fusce ut congue felis. Fusce dictum tristique elit nec iaculis. Mauris sodales tempus fringilla. Fusce nec nunc tempus, tempor sapien sit amet, ultricies erat. Mauris ultrices ac lorem ultrices facilisis. Nam pharetra, nisi a imperdiet interdum, nunc justo ultricies nisl, a laoreet massa dui vel enim. Pellentesque et magna ac tellus ullamcorper malesuada a ac nisl. Curabitur id est et neque convallis accumsan. Aliquam eleifend varius massa. Curabitur eu finibus tortor.
+        \n\nVivamus aliquam nisl rutrum orci volutpat porta in ornare est. Quisque ligula ipsum, vulputate id aliquam vitae, semper vitae orci. Nam non pulvinar ligula, eget tincidunt ante. Quisque sapien massa, varius tempus pretium id, vehicula at magna. Ut ut ultrices augue. Nam nec ullamcorper tellus, at finibus lectus. Fusce vel iaculis mauris, id porta nulla. Aenean ac mollis sapien. Morbi imperdiet augue tempus nulla luctus, sit amet feugiat purus elementum.
+    </string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+</resources>

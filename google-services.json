@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "507869478903",
+    "firebase_url": "https://hiserv-v2.firebaseio.com",
+    "project_id": "hiserv-v2",
+    "storage_bucket": "hiserv-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507869478903:android:3fe5212cf3d5aec2",
+        "android_client_info": {
+          "package_name": "ir.hiserv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507869478903-rr9kjhj1r6f5h0e5e2890acke3s2j6io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.hiserv",
+            "certificate_hash": "e9c0042cf698d4b04e76d280f22b55b5d112d133"
+          }
+        },
+        {
+          "client_id": "507869478903-e98c0k3rbra3div2gbl503nt6bohr887.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-SvBpRKyZ-cpTkNeyLi71d-yXiGShXwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507869478903-e98c0k3rbra3div2gbl503nt6bohr887.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

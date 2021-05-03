@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "31853219676",
+    "firebase_url": "https://bogorone-fe9cb.firebaseio.com",
+    "project_id": "bogorone-fe9cb",
+    "storage_bucket": "bogorone-fe9cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31853219676:android:e4fe0e39cd0a9002",
+        "android_client_info": {
+          "package_name": "com.madrid.bogorone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31853219676-nec9djrupou5mfodq0a8elje4v8akb0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-aSmL4sPE2DZZpWqKWtBpi9M3uyExnTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

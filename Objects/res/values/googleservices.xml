@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="firebase_database_url" translatable="false">https://hiserv-v2.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">507869478903</string>
+  <string name="google_storage_bucket" translatable="false">hiserv-v2.appspot.com</string>
+  <string name="project_id" translatable="false">hiserv-v2</string>
+  <string name="google_app_id" translatable="false">1:507869478903:android:3fe5212cf3d5aec2</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-SvBpRKyZ-cpTkNeyLi71d-yXiGShXwo</string>
+  <string name="google_api_key" translatable="false">AIzaSyC-SvBpRKyZ-cpTkNeyLi71d-yXiGShXwo</string>
+  <string name="default_web_client_id" translatable="false">507869478903-e98c0k3rbra3div2gbl503nt6bohr887.apps.googleusercontent.com</string>
+</resources>

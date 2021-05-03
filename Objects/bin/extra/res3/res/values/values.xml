@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ds_close_navdrawer">Close Navigation Drawer</string>
+    <string name="ds_open_navdrawer">Open Navigation Drawer</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.wordpress">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.app.wordpress.ThisApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.app.wordpress.ActivityMain" />
+        <activity android:name="com.app.wordpress.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.wordpress.ActivityPostDetails" />
+        <activity android:name="com.app.wordpress.ActivityCategoryDetails" />
+        <activity android:name="com.app.wordpress.ActivityWebView" />
+        <activity
+            android:name="com.app.wordpress.ActivitySettings"
+            android:theme="@style/AppThemeSetting" />
+        <activity
+            android:name="com.app.wordpress.ActivitySearch"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.app.wordpress.ActivitySendComment"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppThemeDialog" />
+
+        <!-- Ads activity -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- fireBase service -->
+        <service
+            android:name="com.app.wordpress.fcm.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!-- fireBase iid service] -->
+        <service
+            android:name="com.app.wordpress.fcm.FcmInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

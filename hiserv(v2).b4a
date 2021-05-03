@@ -1,0 +1,242 @@
+﻿Build1=Default,ir.hiserv
+File1=26.png
+File10=apptheme_progressbar_indeterminate_holo7.png
+File11=apptheme_progressbar_indeterminate_holo8.png
+File12=baseline_navigate_next_white_36.png
+File13=body.png
+File14=card_view_inside.bal
+File15=core.png
+File16=div.png
+File17=do_laundry.png
+File18=drying.png
+File19=google_login.png
+File2=28.png
+File20=hiserv_user.png
+File21=home_items_grid.bal
+File22=howwork_inside.bal
+File23=ic_arrow_forward_white_36dp.png
+File24=ic_local_phone_black_36dp.png
+File25=ic_lock_outline_white_36dp.png
+File26=IRAN_SANS_BOLD.TTF
+File27=Iranian_Sans.ttf
+File28=IRANSANSMOBILE_1.TTF
+File29=IRANSANSMOBILE_BOLD.TTF
+File3=account_header.bal
+File30=IRANSANSMOBILE_LIGHT.TTF
+File31=IRANSANSMOBILE_LIGHT_0.TTF
+File32=IRANYekanMobileBold.ttf
+File33=IRANYekanMobileLight.ttf
+File34=IRANYekanMobileRegular.ttf
+File35=item_cv_inside.bal
+File36=laundry.png
+File37=laundry_inside.bal
+File38=login.bal
+File39=main_lay.bal
+File4=apptheme_progressbar_indeterminate_holo1.png
+File40=notify_lay.bal
+File41=notify_list_lay.bal
+File42=orders_inside.bal
+File43=orders_list_inside_num1.bal
+File44=pager1.jpg
+File45=pager2.jpg
+File46=phone_numer_loign_lay.bal
+File47=pracka.jpg
+File48=QUESTION_MARK.png
+File49=REGISTER_FINISHED.bal
+File5=apptheme_progressbar_indeterminate_holo2.png
+File50=register_login_lay.bal
+File51=scroll_inside.bal
+File52=services.png
+File53=splash.bal
+File54=splash_Logo.png
+File55=splash_logo2.png
+File56=step_two_laundry.bal
+File57=typography.png
+File58=تعمیرات-ساختمانی.png
+File6=apptheme_progressbar_indeterminate_holo3.png
+File7=apptheme_progressbar_indeterminate_holo4.png
+File8=apptheme_progressbar_indeterminate_holo5.png
+File9=apptheme_progressbar_indeterminate_holo6.png
+FileGroup1=Default Group
+FileGroup10=progress
+FileGroup11=progress
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=layouts
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=layouts
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Type Faces
+FileGroup27=Type Faces
+FileGroup28=Type Faces
+FileGroup29=Type Faces
+FileGroup3=layouts
+FileGroup30=Type Faces
+FileGroup31=Type Faces
+FileGroup32=Type Faces
+FileGroup33=Type Faces
+FileGroup34=Type Faces
+FileGroup35=layouts
+FileGroup36=Default Group
+FileGroup37=layouts
+FileGroup38=layouts
+FileGroup39=layouts
+FileGroup4=progress
+FileGroup40=layouts
+FileGroup41=layouts
+FileGroup42=layouts
+FileGroup43=layouts
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=layouts
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=layouts
+FileGroup5=progress
+FileGroup50=layouts
+FileGroup51=layouts
+FileGroup52=Default Group
+FileGroup53=layouts
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=layouts
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup6=progress
+FileGroup7=progress
+FileGroup8=progress
+FileGroup9=progress
+Group=Default Group
+IconFile=
+Library1=core
+Library10=javaobject
+Library11=reflection
+Library12=picasso
+Library13=ultimatelistview
+Library14=json
+Library15=firebasenotifications
+Library16=ahviewpager
+Library17=smartstring
+Library18=threading
+Library2=appcompat
+Library3=pagerbullet
+Library4=designsupport
+Library5=materialcircleprogress
+Library6=xmllayoutbuilder
+Library7=ime
+Library8=animation
+Library9=ariavolley
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~~\n~    <style name="MyAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">~\n~        <item name="colorPrimary">#4dccb7</item>~\n~        <item name="colorPrimaryDark">#eee7dd</item>~\n~        <item name="colorAccent">#eee7dd</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">TRUE</item>~\n~		<item name="android:navigationBarColor">#4dccb7</item>~\n~		<item name="android:statusBarColor">#4dccb7</item>~\n~		 ~\n~    </style>~\n~</resources>~\n~)~\n~~\n~SetApplicationAttribute(android:supportsRtl, "true")~\n~~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.Firebase)~\n~CreateResourceFromFile(Macro, FirebaseNotifications.FirebaseNotifications)~\n~'CreateResourceFromFile(Macro, FirebaseAuth.FirebaseAuth)~\n~~\n~SetActivityAttribute(register_login, android:windowSoftInputMode, adjustResize|stateHidden)~\n~
+Module1=laundry
+Module10=notify
+Module11=main_builder
+Module2=register_login
+Module3=order_module
+Module4=account_module
+Module5=FirebaseMessaging
+Module6=main_
+Module7=home_module
+Module8=main_codes
+Module9=Starter
+NumberOfFiles=58
+NumberOfLibraries=18
+NumberOfModules=11
+Version=8.3
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: های سرویس
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+	#Extends: android.support.v7.app.AppCompatActivity
+	#AdditionalRes:..\additional_res
+
+
+	
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: TRUE
+	#IncludeTitle: false
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Dim Timer1 As Timer
+	
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+	Private background_iv As ImageView
+	Private hiserv_logo_iv As ImageView
+	Private MaterialCircleProgress1 As MaterialCircleProgress
+	Private progress_iv As ImageView
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+'	ForseRtlSupported
+'	ForseRtlSupported
+'	Activity.LoadLayout("splash")
+'	MaterialCircleProgress1.Colors = Array As Int(0xFF4DCCB7)
+'	If 100%x>100%y Then
+'	MaterialCircleProgress1.ProgressStrokeWidth = .7%y
+'	Else
+'	MaterialCircleProgress1.ProgressStrokeWidth = .7%x
+'	End If
+'	MaterialCircleProgress1.ShowArrow = False
+'	MaterialCircleProgress1.CircleBackgroundEnabled=False
+''	Timer1.Initialize("Timer1", 5500)
+'	Timer1.Initialize("Timer1", 2000)
+'	Timer1.Enabled = True
+'	background_iv.SetLayoutAnimated(15000,100%x-background_iv.Width,0,200%y,100%y)
+	StartActivity(main_)
+	Activity.Finish
+End Sub
+'Sub ForseRtlSupported
+'	Dim j,jo As JavaObject
+'	jo.InitializeStatic  ("android.view.View")
+'	If j.InitializeStatic  ("android.os.Build$VERSION").GetField ("SDK_INT") > 16 Then
+'		j.InitializeContext.RunMethodJO("getWindow",Null).RunMethodJO("getDecorView",Null) _
+'.RunMethod ("setLayoutDirection",Array(jo.GetField ("LAYOUT_DIRECTION_RTL")))
+'	End If
+'End Sub
+Sub Activity_Resume
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+Sub ForseRtlSupported
+	Dim j,jo As JavaObject
+	jo.InitializeStatic  ("android.view.View")
+	If j.InitializeStatic  ("android.os.Build$VERSION").GetField ("SDK_INT") > 16 Then
+		j.InitializeContext.RunMethodJO("getWindow",Null).RunMethodJO("getDecorView",Null) _
+.RunMethod ("setLayoutDirection",Array(jo.GetField ("LAYOUT_DIRECTION_RTL")))
+	End If
+End Sub
+
+Sub Timer1_Tick
+	
+	Timer1.Enabled=False
+	StartActivity(main_)
+	Activity.Finish
+
+'	StartActivity(register_login)
+'	Activity.Finish
+End Sub
+
